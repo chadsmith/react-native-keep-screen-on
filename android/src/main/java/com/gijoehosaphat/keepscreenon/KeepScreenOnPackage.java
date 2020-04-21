@@ -12,10 +12,6 @@ import java.util.*;
 
 public class KeepScreenOnPackage implements ReactPackage {
 
-    public KeepScreenOnPackage() {
-
-    }
-
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
